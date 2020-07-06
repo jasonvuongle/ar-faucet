@@ -14,17 +14,20 @@
   padding-right: 40px;
   background-color: #fff;
 }
+
 .body-container {
   justify-content: center;
   align-items: center;
   display: block;
 }
+
 .airdrop-container {
   padding-bottom: 40px;
   padding-top: 40px;
   max-width: 720px;
   margin: 0 auto;
 }
+
 .airdrop-label {
   color: #1e3548;
   text-align: start;
@@ -33,12 +36,18 @@
 }
 
 .footer-container {
-  margin-top: 36px;
-  margin-bottom: 36px;
-  padding-top: 40px;
   color: #1e3548;
   text-align: center;
   width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem; /* Footer height */
+}
+
+.qr-cossde {
+  padding-top: 100px !important;
+  font-size: "larger" !important;
+  color: "#1e3548" !important;
 }
 
 .footer-trademark {
